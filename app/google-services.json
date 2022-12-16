@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "199950264794",
+    "project_id": "slipfinal",
+    "storage_bucket": "slipfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199950264794:android:95dd3fbf91e50a161338e3",
+        "android_client_info": {
+          "package_name": "com.example.slipfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199950264794-5p7jcghkg4ek5of686gmeo0tsgjpnt0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSVR7tAgsAEh1JNKBn-6AsRoZ308ggsmY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199950264794-5p7jcghkg4ek5of686gmeo0tsgjpnt0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

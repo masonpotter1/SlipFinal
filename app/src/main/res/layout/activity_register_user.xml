@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUser">
+
+    <EditText
+        android:id="@+id/ux_registerName"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="232dp"
+        android:hint="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ux_registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginBottom="227dp"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ux_registerPhoneNumber"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ux_registerName" />
+
+    <EditText
+        android:id="@+id/ux_registerEmail"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ux_registerPhoneNumber" />
+
+    <EditText
+        android:id="@+id/ux_registerPassword"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginEnd="96dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ux_registerEmail" />
+
+    <TextView
+        android:id="@+id/ux_registerSlip"
+        android:layout_width="257dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="77dp"
+        android:text="Slip"
+        android:textColor="@color/purple_500"
+        android:textAlignment="center"
+        android:textSize="75sp"
+        android:textStyle="bold"
+        android:rotation="0"
+        android:rotationX="31"
+        android:rotationY="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/ux_progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:visibility="gone"
+        android:layout_width="406dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ux_registerButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

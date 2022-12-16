@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Connect: "
+      android:textColor="#ffffff"
+      android:textSize="30sp">
+
+  </TextView>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="120sp" >
+
+    <EditText
+        android:id="@+id/uxConnect_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="2"
+        android:textStyle="italic"
+        android:textSize="23dp"
+        android:text="Activate To Send" />
+
+    <Button
+        android:id="@+id/uxConnect_Activate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Activate Tag"
+        android:textColor="#000000" />
+  </LinearLayout>
+
+  <TextView
+      android:id="@+id/uxConnect_TagContent"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <Switch
+      android:id="@+id/uxConnect_SnapSwitch"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="Send Snapchat" />
+
+  <Switch
+      android:id="@+id/uxConnect_InstaSwitch"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="Send Instagram" />
+
+  <Switch
+      android:id="@+id/uxConnect_FacebookSwitch"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:text="Send Facebook" />
+
+  <Button
+      android:id="@+id/uxConnect_HomeButton"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="#000000"
+      android:text="Home" />
+
+
+</LinearLayout>
